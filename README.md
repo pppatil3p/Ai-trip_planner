@@ -1,12 +1,62 @@
-# React + Vite
+#  AI Trip Planner Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered web application that helps users plan personalized trips by generating optimized travel itineraries based on user preferences such as destination, budget, trip duration, and interests.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- User authentication using Google OAuth
+- Personalized trip planning powered by AI
+- Destination and activity recommendations
+- Day-wise itinerary generation
+- Budget-based travel suggestions
+- Option to edit or regenerate trip plans
+- Responsive and user-friendly UI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+### Frontend
+- ReactJS
+- Tailwind CSS
+
+### Database
+- Firebase
+
+### APIs & Integrations
+- Gemini 1.5 API (AI itinerary generation)
+- Google OAuth (authentication)
+- Google Maps Places API (location & place data)
+- Places Autocomplete API
+
+---
+
+##  How It Works
+
+1. User logs in using Google OAuth  
+2. User enters trip details (destination, budget, dates, interests)  
+3. Trip data is sent to the AI model  
+4. AI generates a personalized, day-wise travel itinerary  
+5. The itinerary is stored in Firebase  
+6. Users can edit or regenerate the itinerary as required  
+
+---
+
+##  Future Enhancements
+
+- Hotel and flight recommendations
+- Real-time pricing and availability
+- Map-based itinerary visualization
+- Group trip planning
+- Mobile application support
+
+---
+
+##  Author
+
+**Prathmesh Patil**  
+- GitHub: https://github.com/pppatil3p  
+
+
